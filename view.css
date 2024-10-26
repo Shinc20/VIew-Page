@@ -1,0 +1,100 @@
+/* Common Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+/* PC View Container */
+.pc-view-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 2rem auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+/* Left Column: PC Image */
+.pc-image {
+    flex: 1;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pc-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Right Column: Components Selection */
+.pc-components {
+    flex: 1;
+}
+
+.component {
+    margin-bottom: 1.5rem;
+}
+
+.component label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.add-to-cart {
+    background-color: #28a745;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .pc-view-container {
+        flex-direction: column;
+    }
+
+    .pc-image {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+}

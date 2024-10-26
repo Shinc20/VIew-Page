@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMD PC Build</title>
+    <link rel="stylesheet" href="view.css">
+</head>
+<body>
+    <header>
+        <h1>AMD Custom PC Build</h1>
+    </header>
+
+    <section class="pc-view-container">
+        <!-- Left Column: Image -->
+        <div class="pc-image">
+            <img id="pcImage" src="https://modxcomputers.com/wp-content/uploads/2022/06/2.jpg" alt="PC Image">
+        </div>
+
+        <!-- Right Column: Components Selection -->
+        <div class="pc-components">
+            <div class="component">
+                <label for="processor">Processor</label>
+                <select id="processor" name="processor">
+                    <option value="intel-i5">Intel Core i5</option>
+                    <option value="intel-i7">Intel Core i7</option>
+                    <option value="amd-ryzen5">AMD Ryzen 5</option>
+                    <option value="amd-ryzen7">AMD Ryzen 7</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </div>
+
+            <div class="component">
+                <label for="motherboard">Motherboard</label>
+                <select id="motherboard" name="motherboard">
+                    <option value="asus">ASUS ROG Strix</option>
+                    <option value="msi">MSI B550</option>
+                    <option value="gigabyte">Gigabyte Aorus</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </div>
+            <div class="component">
+                <label for="ram">RAM</label>
+                <select id="ram" name="ram">
+                    <option value="16gb">Corsair Vengeance LPX 8GB (8GBx1) DDR4 3200MHz (Black)
+                        ₹1,990</option>
+                    <option value="32gb">TeamGroup T-Force Vulcan Z 16GB (16GBx1) DDR4 3200MHz (Red)
+                        ₹2,950</option>
+                    <option value="64gb">TeamGroup T-Force Delta RGB 8GB (8GBx1) DDR4 3200MHz (White)
+                        ₹2,390</option>
+                    <option value="">TeamGroup T-Force Delta RGB 16GB (16GBx1) DDR4 3200MHz (White)
+                        ₹4,290</option>
+                    <option value="">TeamGroup T-Force Delta RGB 16GB (16GBx1) DDR5 6000MHz (Black)
+                        ₹6,090</option>
+                    
+                    <option value="">Adata XPG Lancer RGB 32GB (32GBx1) DDR5 6000MHz (White)
+                        ₹9,990</option>
+                    <option value="">TeamGroup T-Force Delta RGB 32GB (32GBx1) DDR5 6000MHz (White)
+                        ₹11,490</option>
+                    <option value="">G.Skill Trident Z5 RGB 32GB (16GBx2) DDR5 6000MHz (White)
+                        ₹11,490</option>
+                    <option value="">G.Skill Trident Z5 RGB 64GB (32GBx2) DDR5 6000MHz (White)
+                        ₹21,790</option>
+                    <option value="">G.Skill Trident Z5 RGB 64GB (32GBx2) DDR5 6000MHz (White)
+                        ₹21,790</option>
+
+                </select>
+            </div>
+            <div class="component">
+                <label for="ssd">SSD</label>
+                <select id="ssd" name="ssd">
+                    <option value="Western Digital Blue SA510 250GB
+                    ₹2,850">Western Digital Blue SA510 250GB
+                        ₹2,850</option>
+                    <option value="Western Digital Blue SA510 250GB
+                    ₹2,850">Western Digital Blue SA510 250GB
+                    ₹2,850</option>
+                    <option value="Western Digital Blue SA510 250GB
+                    ₹2,850">Western Digital Blue SA510 250GB
+                    ₹2,850</option>
+                    <option value="Kingston NV2 500GB M.2 NVMe Gen4
+                    ₹3,490">Kingston NV2 500GB M.2 NVMe Gen4
+                    ₹3,490</option>
+                    <option value="Adata XPG Gammix S70 Blade 512GB M.2 NVMe Gen4
+                    ₹4,490">Adata XPG Gammix S70 Blade 512GB M.2 NVMe Gen4
+                    ₹4,490</option>
+                    <option value="Western Digital Black SN770 500GB M.2 NVMe Gen4
+                    ₹4,990">Western Digital Black SN770 500GB M.2 NVMe Gen4
+                    ₹4,990</option>
+                    <option value="Western Digital Black SN850X 1TB M.2 NVMe Gen4
+                    ₹8,690">Western Digital Black SN850X 1TB M.2 NVMe Gen4
+                    ₹8,690</option>
+                    <option value="Samsung 980 Pro 2TB M.2 NVMe Gen4
+                    ₹17,890">Samsung 980 Pro 2TB M.2 NVMe Gen4
+                    ₹17,890</option>
+                    <option value="Western Digital Black SN850X 2TB M.2 NVMe Gen4
+                    ₹15,790">Western Digital Black SN850X 2TB M.2 NVMe Gen4
+                    ₹15,790</option>
+                    <option value="Kingston Fury Renegade 4TB M.2 NVMe Gen4
+                    ₹32,290">Kingston Fury Renegade 4TB M.2 NVMe Gen4
+                    ₹32,290</option>
+                </select>
+            </div>
+            <div class="component">
+                <label for="ssd">Additional Storage (SSD)</label>
+                <select id="ssd" name="ssd">
+                    <option value="Western Digital Blue SA510 250GB
+                    ₹2,850">Western Digital Blue SA510 250GB
+                        ₹2,850</option>
+                    <option value="Western Digital Blue SA510 250GB
+                    ₹2,850">Western Digital Blue SA510 250GB
+                    ₹2,850</option>
+                    <option value="Western Digital Blue SA510 250GB
+                    ₹2,850">Western Digital Blue SA510 250GB
+                    ₹2,850</option>
+                    <option value="Kingston NV2 500GB M.2 NVMe Gen4
+                    ₹3,490">Kingston NV2 500GB M.2 NVMe Gen4
+                    ₹3,490</option>
+                    <option value="Adata XPG Gammix S70 Blade 512GB M.2 NVMe Gen4
+                    ₹4,490">Adata XPG Gammix S70 Blade 512GB M.2 NVMe Gen4
+                    ₹4,490</option>
+                    <option value="Western Digital Black SN770 500GB M.2 NVMe Gen4
+                    ₹4,990">Western Digital Black SN770 500GB M.2 NVMe Gen4
+                    ₹4,990</option>
+                    <option value="Western Digital Black SN850X 1TB M.2 NVMe Gen4
+                    ₹8,690">Western Digital Black SN850X 1TB M.2 NVMe Gen4
+                    ₹8,690</option>
+                    <option value="Samsung 980 Pro 2TB M.2 NVMe Gen4
+                    ₹17,890">Samsung 980 Pro 2TB M.2 NVMe Gen4
+                    ₹17,890</option>
+                    <option value="Western Digital Black SN850X 2TB M.2 NVMe Gen4
+                    ₹15,790">Western Digital Black SN850X 2TB M.2 NVMe Gen4
+                    ₹15,790</option>
+                    <option value="Kingston Fury Renegade 4TB M.2 NVMe Gen4
+                    ₹32,290">Kingston Fury Renegade 4TB M.2 NVMe Gen4
+                    ₹32,290</option>
+                </select>
+            </div>
+
+            <div class="component">
+                <label for="GPU">Graphics card</label>
+                <select id="GPU" name="GPU">
+                    <option value="">MSI GTX 1650 D6 Ventus XS OCV3 4GB
+                        ₹13,490</option>
+                    <option value="">Gigabyte RTX 3050 Windforce OC 6GB
+                        ₹16,990 Original price was: ₹16,990.₹16,290</option>
+                    <option value="">Gigabyte RTX 4060 Eagle OC 8GB
+                        ₹27,990</option>
+                    <option value="">ASUS RTX 3060 Dual OC V2 12GB
+                        ₹25,490</option>
+                    <option value="">ASUS Dual RTX 4060 Ti White OC Edition 8GB
+                        ₹37,390</option>
+                    <option value="">Gigabyte RTX 4060 Ti Eagle 8GB
+                        ₹38,290</option>
+                    <option value="">Zotac RTX 4070 Twin Edge 12GB
+                        ₹50,990</option>
+                    <option value="">MSI RTX 4070 Ventus 2X E OC 12GB
+                        ₹54,490</option>
+                    <option value="">Zotac RTX 4070 Super Twin Edge 12GB
+                        ₹57,990</option>
+                    <option value="">Zotac RTX 4070 Super Trinity OC Black 12GB
+                        ₹60,990</option>
+                    <option value="">Galax RTX 4080 Super SG (1-Click OC) 16GB
+                        ₹100,490</option>
+                    <option value="">Gigabyte RTX 4080 Super Windforce V2 16GB
+                        ₹110,990</option>
+                    <option value="">RTX 4080 Super Trinity OC 16GB (WHITE)
+                        ₹106,990</option> 
+                       
+                    <option value="">ASUS TUF Gaming RTX 4090 OC 24GB
+                        ₹223,990</option>
+                    <option value="">MSI RTX 4090 Suprim X 24GB
+                        ₹229,990</option>
+
+
+                </select>
+            </div>
+            <div class="component">
+                <label for="PSU">Power Supply</label>
+                <select id="PSU" name="PSU">
+                    <option value="">Ant Esports RX550 550 Watt 80 Plus Bronze
+                        ₹2,990</option>
+                    <option value="">Deepcool PK550D 550 Watt 80 Plus Bronze
+                        ₹3,690</option>
+                    <option value="">Cooler Master MWE 550 V3 ATX 3.1 80 Plus Bronze
+                        ₹4,090</option>
+                    <option value="">MSI MAG A650BN 650 Watt 80 Plus Bronze
+                        ₹4,890</option>
+                    <option value="">Corsair CX650 650 Watt 80 Plus Bronze
+                        ₹5,490</option>
+                    <option value="">Corsair RM750e ATX 3.0 750 Watt 80 Plus Gold Fully Modular
+                        ₹9,990</option>
+                    <option value="">Corsair RM1000e ATX 3.0 1000 Watt 80 Plus Gold Fully Modular
+                        ₹15,990</option>
+                    <option value="">MSI MAG A1250GL PCIE5 ATX 3.1 1250 Watt 80 Plus Gold Fully Modular
+                        ₹19,990</option>
+                    <option value="">Cooler Master MWE 1250 V2 ATX 3.0 1250 Watt 80 Plus Gold Fully Modular
+                        ₹19,990</option>
+                    <option value="">MSI MEG Ai1300P PCIE5 ATX 3.0 1300 Watt 80 Plus Platinum Fully Modular
+                        ₹29,990</option>
+
+                </select>
+            </div>
+            <div class="component">
+                <label for="Cabinet">Cabinet</label>
+                <select id="Cabinet" name="Cabinet">
+                    <option value="">Antec AX83 RGB (Black)
+                        ₹3,190</option>
+                    <option value="">Antec CX200M RGB Elite (Black)
+                        ₹4,290</option>
+                    <option value="">Circle Eliminator X5 ARGB Type-C (White)
+                        ₹4,790</option>
+                    <option value="">Lian Li Lancool 205M Mesh ARGB (Black)
+                        ₹4,990</option>
+                    <option value="">Antec AX90 ARGB (Black)
+                        ₹5,890</option>
+                    <option value="">Ant Esports 711 Air Mesh ARGB (Black)
+                        ₹7,190</option>
+                    <option value="">Lian Li Lancool 216 ARGB (White)
+                        ₹8,290</option>
+                    <option value="">Lian Li Lancool II Mesh RGB (White)
+                        ₹9,190</option>
+                    <option value="">Lian Li PC-O11 Dynamic (White)
+                        ₹12,890</option>
+                    <option value="">NZXT H7 Flow RGB (White)
+                        ₹14,990</option>
+                    <option value="">Lian Li O11 Dynamic EVO RGB (White)
+                        ₹18,990</option>
+                    <option value="">Antec Torque (Black/Red)
+                        ₹34,990</option>
+                    <option value="">Cooler Master Cosmos C700M (Grey)
+                        ₹44,990</option>
+                    <option value="">Cooler Master HAF 700 EVO ARGB (Titanium Grey)
+                        ₹45,490</option>
+
+                </select>
+            </div>
+            <div class="component">
+                <label for="Liquid Cooler">Liquid Cooler</label>
+                <select id="Liquid Cooler" name="Liquid Cooler">
+                    <option value="">Galax Hydro Vortex 240R (White) ₹4,990</option>
+                    <option value="">Cougar Poseidon Elite ARGB 240 (White) ₹4,990</option>
+                    <option value="">MSI MAG Coreliquid M240 (Black) ₹5,990</option>
+                    <option value="">DeepCool Gammaxx LE720 WH (White) ₹7,190</option>
+                    <option value="">Ant Esports ICE-Glow 360 ARGB (White) ₹7,590</option>
+                    <option value="">Cooler Master MasterLiquid 360L Core ARGB (White) ₹8,490</option>
+                    <option value="">NZXT Kraken 280 RGB LCD Display (White) ₹17,490</option>
+                    <option value="">NZXT Kraken 360 RGB LCD Display (Black) ₹18,990</option>
+                    <option value="">Lian Li Galahad II LCD ARGB 360mm (White) ₹19,990</option>
+                    <option value="">MSI MAG Coreliquid S360 with Display (Black) ₹21,990</option>
+                </select>
+            </div>
+            
+            <div class="component">
+                <label for="Case Fans">Case Fans</label>
+                <select id="Case Fans" name="Case Fans">
+                    <option value="">Antec Neon 120mm Case Fan ARGB With Controller (Single Pack)
+                        ₹790</option>
+                    <option value="">Ant Esports Superflow 120 Kit ARGB (Triple Pack)
+                        ₹1,890</option>
+                    <option value="">Ant Esports Spectraflow ARGB White (Triple Pack)
+                        ₹2,290</option>
+                    <option value="">Lian Li ST120 Black 120mm ARGB Cabinet Fan (Triple Pack)
+                        ₹3,490</option>
+                    <option value="">Deepcool CF120 PLUS 120mm ARGB Cabinet Fan (Triple Pack)
+                        ₹3,730</option>
+
+                    <option value="">Cooler Master MasterFan MF120 Halo ARGB Cabinet Fan (Triple Pack)
+                        ₹3,990</option>
+                    <option value="">Lian Li UNI Fan SL V2 120 ARGB Cabinet Fan With Controller - Black (Triple Pack)
+                        ₹8,990</option>
+                    <option value="">Lian Li UNI SL Infinity 120 Black 120mm PWM ARGB Cabinet Fan (Triple Pack)
+                        ₹8,990</option>
+                    
+                    <option value="">Lian Li UNI SL Infinity 120 White 120mm PWM ARGB Cabinet Fan (Triple Pack)</option>
+                    <option value="">Lian Li UNI Fan SL V2 120 ARGB Cabinet Fan With Controller - White (Triple Pack)</option>
+                </select>
+            </div>
+            <div class="component">
+                <label for="Monitors">Monitors</label>
+                <select id="Monitors" name="Monitors">
+                    <option value="">ViewSonic VA2215-H | 22 Inch 1080p 100Hz
+                        ₹5,890</option>
+                    <option value="">LG 22MR410-B | 22 Inch 1080p 100Hz
+                        ₹6,390</option>
+                    <option value="">LG 24MR400-B | 24 Inch 1080p 100Hz IPS
+                        ₹8,190</option>
+                    <option value="">MSI G255F | 25 Inch 1080p 180Hz IPS
+                        ₹11,490</option>
+                    <option value="">Gigabyte GS27FA | 27 Inch 1080p 180Hz IPS
+                        ₹12,190</option>
+                    <option value="">Gigabyte GS27Q | 27 Inch 1440p (2K) 165Hz IPS 1ms
+                        ₹18,790</option>
+                    <option value="">LG 27GR75Q-B | 27 Inch 1440p (2K) 165Hz IPS
+                        ₹22,990</option>
+                    <option value="">LG 32GN650-B | 32 Inch 1440p (2K) 165Hz VA
+                        ₹24,790</option>
+                    <option value="">Gigabyte M27Q | 27 Inch 1440p (2K) 170Hz IPS
+                        ₹25,690</option>
+                    <option value="">LG 34GP63A-B | 34 Inch UltraWide 1440p (2K) 160Hz
+                        ₹33,990</option>
+                    <option value="">Gigabyte M27Q X | 27 Inch 1440p (2K) 240Hz IPS 1ms
+                        ₹40,990</option>
+                    <option value="">LG 27GN95R-B | 27 Inch 2160p (4K) 144Hz IPS
+                        ₹49,990</option>
+                </select>
+            </div>
+
+            
+
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </section>
+</body>
+</html>
